@@ -10,7 +10,15 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
+            var ourClass = Singleton.Instance;
+            ourClass.Name = "Alberto";
 
+            Console.WriteLine(ourClass.Name);
+
+
+
+            Console.ReadLine();
+           
         }
     }
 }
